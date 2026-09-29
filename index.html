@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uncharted | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>UNCHARTED</h1>
+        <p>My Favorite Video Game Franchise</p>
+
+        <!--
+            MDN ELEMENT: <menu>
+            The <menu> element is used for a group of navigation links.
+            I am using it as the main navigation for my website.
+        -->
+        <menu>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="games.html">The Games</a></li>
+            <li><a href="favorite.html">My Favorite</a></li>
+            <li><a href="world.html">The World</a></li>
+        </menu>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>The World of Uncharted</h2>
+            <p>
+                Uncharted is one of my favorite video game franchises. The series follows main protagonist Nathan Drake as he travels around the world searching for lost treasures and uncovering historical mysteries.
+            </p>
+            <a class="button" href="games.html">Explore the Games</a>
+        </section>
+
+        <section>
+            <h2>Why Uncharted?</h2>
+            <p>
+                I like Uncharted because it combines action, exploration, puzzles, and storytelling. Each game takes Nathan Drake to different places and puts him in new situations.
+            </p>
+        </section>
+
+        <section>
+            <h2>What This Website Is About</h2>
+            <p>
+                This website is about the first four main Uncharted games and some of the things that make the series one of my favorite video game franchises.
+            </p>
+            <div class="image-container">
+                <div>
+                    <img src="images/Uncharted.jpeg" alt="Uncharted Games">
+                </div>
+            </div>
+        </section>
+
+        <section class="search">
+            <h2>Explore</h2>
+            <!--
+                MDN ATTRIBUTE: placeholder
+                The placeholder attribute gives an example of what
+                the user can type into an input field.
+                it doenst actually do anything, it just gives an example of how a placeholder is used.
+            -->
+            <label for="search">Search the website:</label>
+            <input
+                type="text"
+                id="search"
+                placeholder="Search for a game or character (this is a placeholder)"
+            >
+        </section>
+    </main>
+
+    <footer>
+        <p>Created by Erick Mazariegos</p>
+    </footer>
+</body>
+</html>

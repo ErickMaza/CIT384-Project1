@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uncharted | The Games</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>UNCHARTED</h1>
+        <p>The Games</p>
+        <menu>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="games.html">The Games</a></li>
+            <li><a href="favorite.html">My Favorite</a></li>
+            <li><a href="world.html">The World</a></li>
+        </menu>
+    </header>
+
+    <main>
+        <section class="page-title">
+            <h2>The Uncharted Games</h2>
+            <p>
+                The first four main games follow Nathan Drake through different adventures around the world.
+            </p>
+        </section>
+
+        <section class="game-container">
+            <article class="game-card">
+                <h2>Uncharted: Drake's Fortune</h2>
+                <p class="year">2007</p>
+                <p>
+                    Good introduction game and the bond between nathan and sully is great its was short but the story was good. felt like a buddy movie.
+                </p>
+                <img src="images/Uncharted1.jpeg" alt="Uncharted 1" width="400">
+                <h3>My Rating</h3>
+                <!--
+                    MDN ELEMENT: <meter>
+                    The meter element displays a value within a known range.
+                    MDN ATTRIBUTES: min and max
+                    min sets the lowest possible value.
+                    max sets the highest possible value.
+                    I am using meter to show my personal rating
+                    for each game.
+                -->
+                <label for="game1-rating">Overall:</label>
+                <meter id="game1-rating" min="0" max="10" value="8">
+                    8 out of 10
+                </meter>
+                <p>8 / 10</p>
+            </article>
+
+            <article class="game-card">
+                <h2>Uncharted 2: Among Thieves</h2>
+                <p class="year">2009</p>
+                <p>
+                    The opening to this game was the best one in the series with sneaking into the museum and then the train sequence later on in the store was awesome too.
+                </p>
+                <img src="images/Uncharted2.jpeg" alt="Uncharted 2" width="400">
+                <h3>My Rating</h3>
+                <label for="game2-rating">Overall:</label>
+                <meter id="game2-rating" min="0" max="10" value="10">
+                    10 out of 10
+                </meter>
+                <p>10 / 10</p>
+            </article>
+
+            <article class="game-card">
+                <h2>Uncharted 3: Drake's Deception</h2>
+                <p class="year">2011</p>
+                <p>
+                    Not much of a comment on this one, i think this one was the bad one in the series but it had its moments.
+                </p>
+                <img src="images/Uncharted3.png" alt="Uncharted 3" width="400">
+                <h3>My Rating</h3>
+                <label for="game3-rating">Overall:</label>
+                <meter id="game3-rating" min="0" max="10" value="7">
+                    7 out of 10
+                </meter>
+                <p>7 / 10</p>
+            </article>
+
+            <article class="game-card">
+                <h2>Uncharted 4: A Thief's End</h2>
+                <p class="year">2016</p>
+                <p>
+                    This was my reintoduction to the series after years of not playing the second one and it was awesome. the story was good, the puzzles were good, and the locations were amazing
+                </p>
+                <img src="images/Uncharted4.jpeg" alt="Uncharted 4" width="400">
+                <h3>My Rating</h3>
+                <label for="game4-rating">Overall:</label>
+                <meter id="game4-rating" min="0" max="10" value="10">
+                    10 out of 10
+                </meter>
+                <p>10 / 10</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created by Erick Mazariegos</p>
+    </footer>
+</body>
+
+</html>
